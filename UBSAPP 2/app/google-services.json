@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778071714125",
+    "project_id": "uta-bazaar",
+    "storage_bucket": "uta-bazaar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778071714125:android:4b1d5731e39b68e054ef04",
+        "android_client_info": {
+          "package_name": "com.example.ubsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778071714125-re6545ufd06hn5r95e3afeu6bs7g2nd6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJuLavp3vepUz6UxmXEzc2cOcKzIPYejI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778071714125-re6545ufd06hn5r95e3afeu6bs7g2nd6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_3"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark" >
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="77dp"
+        android:layout_height="82dp"
+        android:contentDescription="@string/background"
+        app:srcCompat="@drawable/img_2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="@string/ubs_hub"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/search"
+        android:textColor="#1A237E"
+        app:layout_constraintEnd_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/exchange_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/exchange"
+        android:textColor="#4A148C"
+        app:layout_constraintBottom_toTopOf="@+id/payments_btn"
+        app:layout_constraintTop_toBottomOf="@+id/search_btn"
+        app:layout_constraintVertical_bias="0.793"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <Button
+        android:id="@+id/payments_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/buy_sell"
+        android:textColor="#1A237E"
+        app:layout_constraintBottom_toTopOf="@id/clubs_btn"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <Button
+        android:id="@+id/clubs_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/custom_button"
+        app:layout_constraintBottom_toTopOf="@id/communication_btn"
+        android:text="@string/clubs"
+        android:textColor="#1A237E"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-61dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/communication_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:background="@drawable/custom_button"
+        android:text="@string/communication"
+        android:textColor="#1A237E"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+</LinearLayout>
+

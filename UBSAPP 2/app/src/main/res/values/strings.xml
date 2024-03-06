@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">UBSAPP</string>
+    <string name="picture">picture</string>
+    <string name="continue_login_sign_up">Continue Login/Sign Up?</string>
+    <string name="logo">logo</string>
+    <string name="Button">button</string>
+    <string name="communication">communication</string>
+    <string name="clubs">clubs</string>
+    <string name="buy_sell">buy/sell</string>
+    <string name="exchange">exchange</string>
+    <string name="search">search</string>
+    <string name="ubs_hub">UBS HUB</string>
+    <string name="background">background</string>
+    <string name="go_back_to_homepage"><![CDATA[<-- Go Back to Homepage]]></string>
+    <string name="view_sample">view sample</string>
+    <string name="searchview">SearchView</string>
+    <string name="details">Details</string>
+    <string name="share">SHARE</string>
+    <string name="visit">VISIT</string>
+    <string name="event_image">event image</string>
+    <string name="don_t_have_an_account_register">Don\'t have an account? Register</string>
+</resources>
